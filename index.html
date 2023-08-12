@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agricultural Website</title>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!--bootstrab css-->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+  <!-- sweet alert2 css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.16/sweetalert2.min.css"
+    integrity="sha512-NvuRGlPf6cHpxQqBGnPe7fPoACpyrjhlSNeXVUY7BZAj1nNhuNpRBq3osC4yr2vswUEuHq2HtCsY2vfLNCndYA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- start navbar-->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="index.html"><img src="assets/img/logo.png" width="35%" alt="img" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our services
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item text-capitalize" href="#">agricultural problems</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-capitalize" href="#">garden design</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-icon me-4">
+        <a href="#">
+          <i class="fa-solid fa-magnifying-glass pe-3 text-dark"></i></a>
+        <a href="#">
+          <i class="fa-solid fa-cart-shopping ps-3 text-dark"></i></a>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar-->
+
+  <!-- start header-->
+  <header class="header vh-100" id="header">
+    <div class="d-flex vh-100 justify-content-start">
+      <div class="header-content">
+        <h1 class="py-3">Welcom to Agriculture Farm</h1>
+        <h2 class="pb-4"><b>High Quality Fresh Organic Products.</b></h2>
+        <p class="pb-4">25 years of experince in agriculture farming</p>
+
+        <a href="#" class="btn button text-capitalize text-decoration-none text-white rounded-pill py-2 px-4">
+          learn more</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- end header-->
+
+
+  <!-- start section about  -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-6 about-parent  d-flex justify-content-between  ">
+          <div class="row align-items-start ">
+            <div class="col-lg-6 about-img ">
+              <img src="assets/img/about/side-3.jpg " />
+            </div>
+            <div class="col-lg-6 about-img">
+              <div>
+                <img src="assets/img/about/side-4.jpg " />
+              </div>
+              <div class="about-img-content  w-100">
+                <h3 class="text-white"><span>25</span>Years Experince</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 about-content  ">
+          <div class="title position-relative">
+            <img src="assets/img/about/barley-cl.png" class="position-absolute">
+            <span class="sup-title "> About Us</span>
+            <h4>We're Providing The Best Solution</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+          <div class="about-icons">
+            <ul class="mb-2">
+              <div class="icons-list  position-relative">
+                <i class="fa-solid fa-check position-absolute "></i>
+                <li class="list-content">There are many variations of passages of Lorem Ipsum
+                </li>
+
+              </div>
+              <div class="icons-list  position-relative">
+                <i class="fa-solid fa-check position-absolute "></i>
+                <li class="list-content">There are many variations of passages of Lorem Ipsum
+                </li>
+
+              </div>
+              <div class="icons-list  position-relative">
+                <i class="fa-solid fa-check position-absolute "></i>
+                <li class="list-content">There are many variations of passages of Lorem Ipsum
+                </li>
+
+              </div>
+
+            </ul>
+          </div>
+          <a href="#" class="btn button text-white rounded-pill py-2 px-4"> learn more</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="block  mt-5">
+    <div class="container">
+      <div class="row">
+        <div class=" col-lg-6 block-img  ">
+          <img src="assets/img/about/about-1-img-1.jpg" />
+
+        </div>
+        <div class=" col-lg-6 block-title ">
+          <div class="row">
+            <div class="col-lg-3 block-tcontent  ">
+              <h4>1570 +</h4>
+              <p>total product</p>
+            </div>
+            <div class="col-lg-3 block-tcontent ">
+              <h4>1570 +</h4>
+              <p>total product</p>
+            </div>
+            <div class="col-lg-3 block-tcontent ">
+              <h4>1570 +</h4>
+              <p>total product</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- end section about  -->
+
+
+  <!--Start.projects-->
+  <section class="project">
+
+    <div class="container">
+
+      <div class="project-content position-relative ">
+
+        <div class="title1">
+          <img src="assets/img/about/barley-cl.png" class=" position-absolute">
+          <span class="title">Our Latest Projects </span>
+        </div>
+
+        <h2>Recently completed Projects</h2>
+
+      </div>
+
+      <div class="row1">
+
+        <div class="img">
+
+          <div class="img-content">
+
+            <div class="single-img"><img src="assets/img/project/project-full6-min.jpg" /></div>
+
+            <div class="content">
+              <div class="item1"><a href="#">Britannica</a></div>
+              <div class="item2"><a href="#">Helthy Food</a></div>
+              <div class="item3"><a href="#"><i class="fa-solid fa-chevron-right"></i></a></div>
+            </div>
+          </div>
+
+
+          <div class="img-content">
+
+            <div class="single-img"><img src="assets/img/project/project-full3-min.jpg" /></div>
+
+            <div class="content">
+              <div class="item1"><a>Britannica</a></div>
+              <div class="item2"><a>Ecological farming</a></div>
+              <div class="item3"><a href="#"><i class="fa-solid fa-chevron-right"></i></a></div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="img">
+
+          <div class="img-content">
+
+            <div class="single-img"><img src="assets/img/project/project-full5-min.jpg" /></div>
+
+            <div class="content">
+              <div class="item1"><a href="#">Britannica</a></div>
+              <div class="item2"><a href="#">Fresh Products</a></div>
+              <div class="item3"><a href="#"><i class="fa-solid fa-chevron-right"></i></a></div>
+            </div>
+          </div>
+
+
+          <div class="img-content">
+
+            <div class="single-img"><img src="assets/img/project/project-full2-min.jpg" /></div>
+
+            <div class="content">
+              <div class="item1"><a>Britannica</a></div>
+              <div class="item2"><a>Agricultural farming</a></div>
+              <div class="item3"><a href="#"><i class="fa-solid fa-chevron-right"></i></a></div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="img">
+
+          <div class="img-content">
+
+            <div class="single-img"><img src="assets/img/project/project-full4-min.jpg" /></div>
+
+            <div class="content">
+              <div class="item1"><a href="#">Britannica</a></div>
+              <div class="item2"><a href="#">Organic Solution</a></div>
+              <div class="item3"><a href="#"><i class="fa-solid fa-chevron-right"></i></a></div>
+            </div>
+          </div>
+
+
+          <div class="img-content">
+
+            <div class="single-img"><img src="assets/img/project/project-full1-min.jpg" /></div>
+
+            <div class="content">
+              <div class="item1"><a>Britannica</a></div>
+              <div class="item2"><a>Easy Harvesting</a></div>
+              <div class="item3"><a href="#"><i class="fa-solid fa-chevron-right"></i></a></div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--End.projects-->
+
+
+  <!-- start Services -->
+  <section class="service">
+    <div class="container ">
+      <div class="title">
+        <div class="title1">
+          <img src="assets/img/about/barley-cl.png">
+          <span class="sub-title text-capitalize"> What we do</span>
+        </div>
+        <h1 class="text-capitalize pb-4">Services We Offer</h1>
+      </div>
+      <div class="row2">
+        <div class="flip-back ">
+          <div class="flip-img">
+            <img src="assets/img/services/image1.png">
+          </div>
+          <h4 class="flip-title"> Dairy Products</h4>
+
+          <div class="flip-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, molestias ad deleniti, porro vel fugiat
+              est </p>
+          </div>
+          <div class="ankor"><a href="#" class="right" title="More"><i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+        </div>
+        <div class="flip-back">
+          <div class="flip-img">
+            <img src="assets/img/services/image2.png">
+          </div>
+          <h4 class="flip-title"> Dairy Products</h4>
+
+          <div class="flip-content">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, molestias ad deleniti, porro vel fugiat
+              est </p>
+
+          </div>
+          <div class="ankor"><a href="#" class="right" title="More"><i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="flip-back">
+          <div class="flip-img">
+            <img src="assets/img/services/image3.png">
+          </div>
+          <h4 class="flip-title"> Dairy Products</h4>
+
+          <div class="flip-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, molestias ad deleniti, porro vel fugiat
+              est </p>
+
+          </div>
+          <div class="ankor"><a href="#" class="right" title="More"><i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+   <div class="btton">      <a href="#" class="bttn button text-white rounded-pill  "> More Services</a>
+</div>
+  </section>
+
+  <!--End Services-->
+
+
+  <!-- start farmer -->
+  <section class="farmer mt-5">
+    <div class="container ">
+      <div class="title">
+        <div class="title1">
+          <img src="assets/img/about/barley-cl.png">
+          <span class="sub-title"> Our Latest Projects </span>
+        </div>
+        <h1 class="text-capitalize pb-4"> Meet the farmers</h1>
+      </div>
+      <div class="row d-flex">
+        <div class="parent">
+          <div class="img-over">
+            <img src="assets/img/image1.jpg" alt="img1" />
+          </div>
+          <div class="caption">
+            <a href="#" class="name">Jonhas Donald</a>
+            <a href="#" class="btn button text-capitalize text-decoration-none px-2">
+              Farmer
+            </a>
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="img-over">
+            <img src="assets/img/image3.jpg" alt="img2" />
+          </div>
+          <div class="caption">
+            <a href="#">mila stinson</a>
+            <a href="#" class="btn button text-capitalize text-decoration-none px-2">
+              Farmer
+            </a>
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="img-over">
+            <img src="assets/img/image2.jpg" alt="img3" />
+          </div>
+          <div class="caption">
+            <a href="#">Robert statham</a>
+            <a href="#" class="btn button text-capitalize text-decoration-none px-2 ">
+              Farmer
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end farmer -->
+
+  <!--bootstrab js-->
+  <script src="libraries/vendor/Js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.16/sweetalert2.all.min.js"
+    integrity="sha512-4tvE14sHIcdIHl/dUdMHp733PI6MpYA7BDnDfndQmx7aIovEkW+LfkonVO9+NPWP1jYzmrqXJMIT2tECv1TsEQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
